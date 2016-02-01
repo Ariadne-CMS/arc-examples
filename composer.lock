@@ -1,0 +1,427 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "fb4d6ff725f346a5495ce274870510b9",
+    "content-hash": "d4393f15187951b308a96340ef009032",
+    "packages": [
+        {
+            "name": "arc/base",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ariadne-CMS/arc-base.git",
+                "reference": "b643a1a360c5a596c862a79611946d2f0f7b1654"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ariadne-CMS/arc-base/zipball/b643a1a360c5a596c862a79611946d2f0f7b1654",
+                "reference": "b643a1a360c5a596c862a79611946d2f0f7b1654",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Auke van Slooten",
+                    "email": "auke@muze.nl"
+                }
+            ],
+            "description": "Ariadne Component Library",
+            "homepage": "https://github.com/Ariadne-CMS/arc/wiki",
+            "keywords": [
+                "component",
+                "components"
+            ],
+            "time": "2016-01-28 14:35:55"
+        },
+        {
+            "name": "arc/cache",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ariadne-CMS/arc-cache.git",
+                "reference": "377f3d8896585e776a71e6a001868ff21adddaca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ariadne-CMS/arc-cache/zipball/377f3d8896585e776a71e6a001868ff21adddaca",
+                "reference": "377f3d8896585e776a71e6a001868ff21adddaca",
+                "shasum": ""
+            },
+            "require": {
+                "arc/base": "~2.1",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Auke van Slooten",
+                    "email": "auke@muze.nl"
+                }
+            ],
+            "description": "Ariadne Component Library: Cache Component",
+            "homepage": "https://github.com/Ariadne-CMS/arc/wiki",
+            "keywords": [
+                "component",
+                "components"
+            ],
+            "time": "2016-01-28 15:01:26"
+        },
+        {
+            "name": "arc/config",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ariadne-CMS/arc-config.git",
+                "reference": "48cb069d9d113efd85a1a28d0cf7d36554f6a6cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ariadne-CMS/arc-config/zipball/48cb069d9d113efd85a1a28d0cf7d36554f6a6cb",
+                "reference": "48cb069d9d113efd85a1a28d0cf7d36554f6a6cb",
+                "shasum": ""
+            },
+            "require": {
+                "arc/base": "~2.1",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Auke van Slooten",
+                    "email": "auke@muze.nl"
+                }
+            ],
+            "description": "Ariadne Component Library: hierarchical configuration management Component",
+            "homepage": "https://github.com/Ariadne-CMS/arc/wiki",
+            "keywords": [
+                "component",
+                "components"
+            ],
+            "time": "2016-01-28 15:02:15"
+        },
+        {
+            "name": "arc/events",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ariadne-CMS/arc-events.git",
+                "reference": "ca37cd80f389c2e435d2f5717e3d69e5b2ca38f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ariadne-CMS/arc-events/zipball/ca37cd80f389c2e435d2f5717e3d69e5b2ca38f8",
+                "reference": "ca37cd80f389c2e435d2f5717e3d69e5b2ca38f8",
+                "shasum": ""
+            },
+            "require": {
+                "arc/base": "~2.1",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Auke van Slooten",
+                    "email": "auke@muze.nl"
+                }
+            ],
+            "description": "Ariadne Component Library: W3C style events Component",
+            "homepage": "https://github.com/Ariadne-CMS/arc/wiki",
+            "keywords": [
+                "component",
+                "components"
+            ],
+            "time": "2016-01-28 15:01:27"
+        },
+        {
+            "name": "arc/grants",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ariadne-CMS/arc-grants.git",
+                "reference": "7d6e1f4c477f8a52fdb189cbe84c4d881e7ea7a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ariadne-CMS/arc-grants/zipball/7d6e1f4c477f8a52fdb189cbe84c4d881e7ea7a6",
+                "reference": "7d6e1f4c477f8a52fdb189cbe84c4d881e7ea7a6",
+                "shasum": ""
+            },
+            "require": {
+                "arc/base": "~1.0||~2.0",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Auke van Slooten",
+                    "email": "auke@muze.nl"
+                }
+            ],
+            "description": "Ariadne Component Library: user and group rights management Component",
+            "homepage": "https://github.com/Ariadne-CMS/arc/wiki",
+            "keywords": [
+                "component",
+                "components"
+            ],
+            "time": "2016-01-27 23:18:44"
+        },
+        {
+            "name": "arc/html",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ariadne-CMS/arc-html.git",
+                "reference": "c71ba27d091aec20c728e1a7252dfc2368d23375"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ariadne-CMS/arc-html/zipball/c71ba27d091aec20c728e1a7252dfc2368d23375",
+                "reference": "c71ba27d091aec20c728e1a7252dfc2368d23375",
+                "shasum": ""
+            },
+            "require": {
+                "arc/xml": "~2.2",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Auke van Slooten",
+                    "email": "auke@muze.nl"
+                }
+            ],
+            "description": "Ariadne Component Library: html writer and parser Component",
+            "homepage": "https://github.com/Ariadne-CMS/arc/wiki",
+            "keywords": [
+                "component",
+                "components"
+            ],
+            "time": "2016-01-24 15:53:31"
+        },
+        {
+            "name": "arc/prototype",
+            "version": "0.9.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ariadne-CMS/arc-prototype.git",
+                "reference": "20a26b4ee2bac9db93432888747fc564d5878483"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ariadne-CMS/arc-prototype/zipball/20a26b4ee2bac9db93432888747fc564d5878483",
+                "reference": "20a26b4ee2bac9db93432888747fc564d5878483",
+                "shasum": ""
+            },
+            "require": {
+                "arc/base": ">=2.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Auke van Slooten",
+                    "email": "auke@muze.nl"
+                }
+            ],
+            "description": "ARC: prototypical inheritance component",
+            "homepage": "https://github.com/Ariadne-CMS/arc/wiki",
+            "keywords": [
+                "arc",
+                "component",
+                "components",
+                "prototype"
+            ],
+            "time": "2016-01-20 14:31:54"
+        },
+        {
+            "name": "arc/web",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ariadne-CMS/arc-web.git",
+                "reference": "954270d2142bea5364a8e69fd4c6ad870378ac79"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ariadne-CMS/arc-web/zipball/954270d2142bea5364a8e69fd4c6ad870378ac79",
+                "reference": "954270d2142bea5364a8e69fd4c6ad870378ac79",
+                "shasum": ""
+            },
+            "require": {
+                "arc/base": "~2.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Auke van Slooten",
+                    "email": "auke@muze.nl"
+                }
+            ],
+            "description": "Ariadne Component Library: Web Components",
+            "homepage": "https://github.com/Ariadne-CMS/arc/wiki",
+            "keywords": [
+                "component",
+                "components"
+            ],
+            "time": "2016-01-27 22:30:38"
+        },
+        {
+            "name": "arc/xml",
+            "version": "2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ariadne-CMS/arc-xml.git",
+                "reference": "b6c60ca250217059cb70b30f76f265e3a4f21b0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ariadne-CMS/arc-xml/zipball/b6c60ca250217059cb70b30f76f265e3a4f21b0c",
+                "reference": "b6c60ca250217059cb70b30f76f265e3a4f21b0c",
+                "shasum": ""
+            },
+            "require": {
+                "arc/base": "~2.0",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "arc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Auke van Slooten",
+                    "email": "auke@muze.nl"
+                }
+            ],
+            "description": "Ariadne Component Library: xml writer and parser Component",
+            "homepage": "https://github.com/Ariadne-CMS/arc/wiki",
+            "keywords": [
+                "component",
+                "components"
+            ],
+            "time": "2016-01-27 11:00:10"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4"
+    },
+    "platform-dev": []
+}
